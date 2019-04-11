@@ -1,0 +1,38 @@
+{
+	"name": "sample",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "parcel public/index.html --no-cache --open",
+		"build": "parcel build public/index.html --no-cache",
+		"deploy": "surge dist instanoteapp.surge.sh",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.4.3",
+		"@babel/plugin-proposal-class-properties": "^7.4.0",
+		"@babel/plugin-proposal-decorators": "^7.4.0",
+		"eslint": "^5.16.0",
+		"less": "^3.9.0",
+		"mobx": "^5.9.4",
+		"mobx-react": "^5.4.3",
+		"mobx-state-tree": "^3.14.0",
+		"parcel": "^1.12.3",
+		"prettier": "^1.16.4",
+		"surge": "^0.20.3"
+	}
+}

@@ -7,6 +7,7 @@ import { ItemStore } from "./MobxStateTree/ItemStore.js";
 class MobX extends Component {
     componentDidMount() {
         const { itemStore } = this.props;
+
         itemStore.addItem({ id: "" + Date.now(), name: "Second Item" });
     }
 
